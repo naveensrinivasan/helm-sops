@@ -1,0 +1,13 @@
+secret_sandbox_helloworld: ENC[AES256_GCM,data:6GmuEa38,iv:zKtpX35+0bHV/zDJas6Np+A6N/7H89oTpMLzfo6GLzw=,tag:+ZRocpPSlXFYKbwD7MeCPw==,type:str]
+sops:
+    kms: []
+    gcp_kms:
+    -   resource_id: projects/mindbody-naveen-srinivasan/locations/global/keyRings/sops/cryptoKeys/sops-key
+        created_at: '2018-12-03T18:17:18Z'
+        enc: CiQAR30yHQcOEaAxMbQ3fR+cVeCcoKzC/CXLDc7p6R2h1JLUnPESSACwgunVZGH8W9QiOBfWlXDekfkWv4blaozv4NRY4XcidZTsZ5bfyji/I4nswYE5D7gU9yrJ10V7vuzqF+XMIJQ19goMiugNSw==
+    azure_kv: []
+    lastmodified: '2018-12-03T18:17:19Z'
+    mac: ENC[AES256_GCM,data:c1cmtvEXwAKzRg4zLef4QQUWEVYR6nPQ41VJLimpXUlmkX9XemO0FScpuvxdv79P5c3psxOJhwSnrpUBA7PH7Ww/GSz7nTc4DrtCIzdcw51sbqKYt3TTCMHCkr7ULOHTVfO9q1bnmQc4pUH3ZlrBMzhjnpdXlwvmvxEuPKsBcVI=,iv:erDB2gcbNBS9t5vsLMHE02BIygiVvs/0ZYc13gC0/F4=,tag:sfzLLDlMJK64S/7ormMzRA==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.2.0

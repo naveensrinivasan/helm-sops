@@ -1,0 +1,4 @@
+---
+creation_rules:
+        # Encrypt using GCP KMS
+        - gcp_kms: projects/mindbody-naveen-srinivasan/locations/global/keyRings/sops/cryptoKeys/sops-key
